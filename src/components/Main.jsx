@@ -66,7 +66,7 @@ const Main = () => {
               <div className="card">
                 <div className="project-info">
                   <h2>My Portfolio</h2>
-                  <p>I made this portfolio using React, and SASS. I chose a 1998 Windows look because it was one of the first computers I used and because I am born in 1998.</p>
+                  <p>I made this portfolio using React, and SASS. I chose a 1998 Windows look because it was one of the first computers I used and because I was born in 1998.</p>
                   <div className="project-btns">
                     <a target="_blank" href="https://isaacgalvan.netlify.app/"><button className="live btn" >See Live</button></a>
                     <a target="_blank" href="https://github.com/isaacgalvan10/1998portfolio"><button className="source btn" >Source Code</button></a>
