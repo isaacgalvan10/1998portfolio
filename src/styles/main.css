@@ -196,7 +196,7 @@
   background: silver;
   padding: 3px;
   width: 100%;
-  height: 500px;
+  height: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,6 +206,7 @@
 .container .window-container .projects-section .projects-container .card .project-info {
   margin: 25px 20px 0 20px;
   font-family: sans-serif;
+  width: 60%;
 }
 
 .container .window-container .projects-section .projects-container .card .project-info h2 {
@@ -232,7 +233,7 @@
 }
 
 .container .window-container .projects-section .projects-container .card .img-wrapper {
-  width: 75%;
+  width: 100%;
   height: 100%;
 }
 
@@ -244,13 +245,13 @@
 }
 
 .container .window-container .contact-section {
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto;
   -webkit-box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
           box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
   background: silver;
   padding: 3px;
-  height: 400px;
+  height: 300px;
 }
 
 .container .window-container .contact-section .contact-info {
@@ -259,5 +260,74 @@
   line-height: 2;
   font-family: sans-serif;
   font-size: 24px;
+}
+
+.container .window-container .contact-section .social-media {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container .window-container .contact-section .social-media a {
+  color: black;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+}
+
+.container .window-container .contact-section .social-media a:hover {
+  color: #104dd0;
+}
+
+.container .window-container .contact-section .social-media a .fa-github-square {
+  margin-right: 20px;
+}
+
+@media all and (max-width: 700px) {
+  .container .window-container .projects-section .projects-container .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .container .window-container .projects-section .projects-container .card .project-info {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 10px 0;
+  }
+  .container .window-container .projects-section .projects-container .card .img-wrapper {
+    height: 254px;
+  }
+  .container .window-container .projects-section .projects-container .card .img-wrapper img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 486px) {
+  .container .window-container .projects-section .projects-container .card {
+    height: 500px;
+  }
+  .container .window-container .projects-section .projects-container .card .project-info {
+    width: 90%;
+    margin: 20px auto 10px auto;
+  }
+  .container .window-container .projects-section .projects-container .card .img-wrapper {
+    height: 290px;
+  }
+  .container .window-container .projects-section .projects-container .card .img-wrapper img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 486px) {
+  .container .window-container .projects-section .projects-container .card .project-info {
+    margin-bottom: 20px;
+  }
+  .container .window-container .projects-section .projects-container .card .img-wrapper {
+    height: 275px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
