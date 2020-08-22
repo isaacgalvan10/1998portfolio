@@ -66,14 +66,14 @@ const Main = () => {
               <div className="card">
                 <div className="project-info">
                   <h2>My Portfolio</h2>
-                  <p>I made this portfolio using React, and SASS. I chose a 1998 Windows look becuase it was one of the first computers I used and becuase I am born in 1998.</p>
+                  <p>I made this portfolio using React, and SASS. I chose a 1998 Windows look because it was one of the first computers I used and because I am born in 1998.</p>
                   <div className="project-btns">
-                    <a target="_blank" href="#"><button className="live btn" >See Live</button></a>
-                    <a target="_blank" href="#"><button className="source btn" >Source Code</button></a>
+                    <a target="_blank" href="https://isaacgalvan.netlify.app/"><button className="live btn" >See Live</button></a>
+                    <a target="_blank" href="https://github.com/isaacgalvan10/1998portfolio"><button className="source btn" >Source Code</button></a>
                   </div>
                 </div>
                 <div className="img-wrapper">
-                  <a target="_blank" href="#"><img src={require("../assets/myportfolio.jpg")} /></a>
+                  <a target="_blank" href="https://isaacgalvan.netlify.app/"><img src={require("../assets/myportfolio.jpg")} /></a>
                 </div>
               </div>
             </div>
