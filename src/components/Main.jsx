@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/main.css';
-// import Minimize from '../assets/minimize.svg'
 
 const Main = () => {
   return (
