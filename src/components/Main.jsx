@@ -91,8 +91,8 @@ const Main = () => {
               <p>galvan1522@gmail.com<br />(210)884-6564</p>
             </div>
             <div className="social-media">
-              <a target="_blank" href="https://github.com/isaacgalvan10"><i class="fab fa-github-square"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/in/isaac-galvan-712095149/"><i class="fab fa-linkedin"></i></a>
+              <a target="_blank" href="https://github.com/isaacgalvan10"><i className="fab fa-github-square"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/isaac-galvan-712095149/"><i className="fab fa-linkedin"></i></a>
             </div>
           </div>
         </div>
